@@ -11,6 +11,8 @@ on:
     branches: [ "main" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
+    paths-ignore:
+      - '.github/**'
   pull_request:
     branches: [ "main" ]
 
